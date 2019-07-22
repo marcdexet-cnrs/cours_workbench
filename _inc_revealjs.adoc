@@ -25,7 +25,7 @@
 :revealjs_viewdistance: 3
 :revealjs_parallaxbackgroundimage:
 :revealjs_parallaxbackgroundsize:
-:revealjs_theme: cours
+:revealjs_customtheme: custom/cours.css
 :revealjs_width: 1280
 :revealjs_height: 800
 :customcss: custom/customcss.css
