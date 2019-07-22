@@ -1,0 +1,140 @@
+= Titre du cours
+include::_inc_revealjs.adoc[]
+
+Donner ici une description succincte du contenu du cours.
+
+== Philosophie générale de la présentation
+
+* Les titres de niveau 2 `== titre` sont des slides principaux.
+* Les titres de niveau 3 sont des sous-slides verticaux.
+* Les titres de niveau supérieur à 4 sont des sections d'un sous-slide vertical.
+
+L'exemple qui suit présente
+
+== Niveau 2
+
+Présentation des points principaux qui sont détaillés par la suite.
+
+* Point A
+* Point B
+* Point C
+
+=== Point A
+
+Détails
+
+=== Point B
+
+Détails
+
+=== Point C
+
+Détails
+
+==== Titre de niveau 4
+
+* alpha
+* bravo
+* charlie
+
+== Inclusion
+
+Pour inclure une présentation déjà existante.
+
+. Créer une présentation à part comme celle-ci
+. Utiliser une directive d'inclusion avec un `leveloffset` pour éviter des collisions de définition de présentation.
+
++
+[source]
+----
+ include::_common_00.adoc[leveloffset=+1]
+----
+
+
+include::_common_00.adoc[leveloffset=+1]
+
+
+== Code highlit
+
+
+[.big]
+[source,python]
+----
+class Engine:
+    def __init__(self):
+        self.status = 'STOPPED'
+        self.internal_fan_speed = 0
+
+    def start_engine(self):
+        if self.status == 'STOPPED':
+           self.internal_fan_speed = 2000
+           self.status = 'STARTED'
+
+energy_tank_quantity = 0
+energy_tank_status = 'CLOSED'
+
+def open_energy_tank():
+    energy_tank_status = 'OPENED'
+
+def add_energy(energy_quantity):
+     open_energy_tank()
+     energy_tank_quantity = energy_tank_quantity + energy_quantity
+
+----
+
+
+== Directives pour rendre visible hors reveal.js
+
+Pour rendre visibles uniquement hors présentation des sections de texte, utiliser les directives
+
+----
+ ifndef::backend-revealjs[]
+
+ Je ne dois pas voir cela.
+ endif::[]
+----
+
+== Images
+
+
+== Other one
+
+=== level3
+
+==== level4
+
+
+== Test max lines (15 lignes, 70 caractères)
+
+
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+123456789_123456789_123456789_123456789_123456789_123456789_123456789_
+
+
+== Backgournd
+
+[.stretch]
+image::https://images.wallpaperscraft.com/image/milky_way_starry_sky_galaxy_119519_1024x768.jpg[canvas,size=contain]

@@ -1,0 +1,29 @@
+[quote]
+____
+You can reverse the role setting after setting it in the document header.
+
+= My presentation
+:role: center
+
+:!role:
+
+== Next Slide
+
+This may not be the most elegant solution, but something worth trying.
+____
+
+
+== Pour imprimer uniquement dans la version PDF
+
+[source]
+----
+
+ifdef::backend-pdf[]
+[NOTE]
+====
+En effet il est important de pouvoir donner plus de détail ici.
+====
+endif::[]
+
+
+----

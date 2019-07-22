@@ -1,0 +1,78 @@
+/* Top document settings */
+
+.reveal {
+	font-size: 2em;
+}
+.reveal .slides {
+	text-align: left;
+}
+.reveal .slides .center {
+	text-align: center;
+}
+.reveal .slides .right {
+	text-align: right;
+}
+.reveal .slides .top { 
+    vertical-align:top;
+}
+.reveal .slides .middle { 
+    vertical-align:middle;
+}
+.reveal .slides .bottom { 
+    vertical-align:bottom;
+}
+
+
+/* titles */
+.reveal h1 {
+  font-size: 3em; 
+}
+
+.reveal h2 {
+  font-size: 2em;
+}
+
+.reveal h3 {
+  font-size: 1.55em;
+}
+
+.reveal h4 {
+  font-size: 1em;
+}
+
+/* Lists */
+.reveal ul > li { 
+	list-style-type: disc; 
+	font-size: 1em;
+	font-weight: normal;
+}
+.reveal ul > li > div > ul > li { 
+	list-style-type: circle; 
+	font-size: 0.8em;
+	font-style: normal;
+}
+.reveal ul > li > div > ul > li > div > ul > li { 
+	list-style-type: square; 
+	font-size: 0.7em;
+	font-style: italic;
+}
+/* special slides */
+
+section.inverse.background {
+  background: #272822;
+  color: #ffffff;
+  text-shadow: 0 0 20px #333;
+}
+
+section.inverse h1 {
+    color: #ffffff;
+}
+.inverse a {
+    color: burlywood;
+}
+
+
+pre.CodeRay.listingblock.big {
+    line-height: 1em;
+    font-size: 0.8em;
+}

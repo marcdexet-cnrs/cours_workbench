@@ -1,0 +1,15 @@
+= Autre présentation à inclure
+include::_inc_revealjs.adoc[]
+
+présentation de l'autre présentation
+
+
+== included_level2
+
+Lorem ipsum dolor sit amet, fringilla ut mi porttitor quisque turpis, elit eros non est lobortis luctus, quis vestibulum curabitur. Tortor platea qui tellus, pede laoreet tellus malesuada, vel quis, non commodo, placerat in. Libero faucibus dignissim morbi eros, interdum augue pulvinar sit quam at, in mauris quis nam integer, ultricies ligula ipsum. Sit sed sed curabitur justo, sed lorem.
+
+
+
+=== included_level3
+
+Lorem ipsum dolor sit amet, fringilla ut mi porttitor quisque turpis, elit eros non est lobortis luctus...
